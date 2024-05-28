@@ -1,0 +1,24 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card {
+  margin-bottom: 10px;
+  padding: 20px;
+  background-color: red;
+  border: 5px;
+  width: 300px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.task-card:hover {
+  cursor: grab;
+}
